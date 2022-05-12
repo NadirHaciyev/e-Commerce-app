@@ -1,0 +1,19 @@
+.active {
+  border-left: 4px solid rgb(97, 218, 251);
+  padding-left: 8px;
+  font-weight: 700;
+}
+.nav-link:not(.active) {
+  padding-left: 12px;
+  font-weight: 400;
+}
+.nav-link {
+  color: rgb(26, 26, 26);
+  width: 100%;
+}
+.nav-link:hover {
+  color: rgb(109, 109, 109);
+}
+.nav {
+  width: 130px;
+}

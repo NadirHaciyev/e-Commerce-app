@@ -1,0 +1,5 @@
+.image-gallery-image {
+  width: 500px !important;
+  height: 300px;
+  object-fit: cover !important;
+}

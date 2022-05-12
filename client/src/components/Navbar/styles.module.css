@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+  height: 3rem;
+  align-items: center;
+}
+.navbar .left {
+  display: flex;
+  gap: 20px;
+}
+.navbar .left .logo {
+  color: rgba(255, 0, 0, 1);
+  font-weight: 600;
+  font-size: 20px;
+}
+.navbar .left .logo:hover {
+  color: rgba(255, 0, 0, .5);
+}
+.navbar .left .products {
+  font-weight: 500;
+  font-size: 20px;
+  color: #111;
+}
+.navbar .left .products:hover {
+  color: #666;
+  border-bottom: 1px solid black;
+}
+.navbar .right {
+  display: flex;
+  gap: 20px;
+}
